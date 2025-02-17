@@ -1,5 +1,3 @@
-// slå dig løs her... 
-
 //eksempel på at udskrive alle overskrifter i services i konsollen:
 services.forEach(service => console.log(service.headline))
 
@@ -13,7 +11,6 @@ document.body.append(heroImg)
 /* --- */
 
 
-
 /* Explore box */
 let exploreBox = document.createElement("div")
 exploreBox.classList.add("exploreBox")
@@ -23,3 +20,12 @@ exploreBox.innerHTML = `
 `
 document.body.append(exploreBox)
 /* --- */
+
+
+/* HeroIcon */
+let heroIcon = document.createElement("div")
+heroIcon.classList.add("heroIcon")
+heroIcon.innerHTML = `
+<button>${hero.icon}</button>
+`
+document.body.append(heroIcon)
